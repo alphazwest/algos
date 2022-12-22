@@ -55,6 +55,7 @@ def single_pass_hash_table(nums, target):
         # add the number after checking for the compliment
         hash_map[num] = i
 
+
 def two_sum(nums: List[int], target: int) -> List[int]:
     """
     Given an array of integers nums and an integer target, return indices of the two
@@ -63,7 +64,6 @@ def two_sum(nums: List[int], target: int) -> List[int]:
     return the answer in any order.
     """
     return single_pass_hash_table(nums=nums, target=target)
-
 
 
 if __name__ == "__main__":
